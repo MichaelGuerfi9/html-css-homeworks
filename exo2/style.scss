@@ -1,0 +1,76 @@
+@mixin global($background, $width, $height, $boxShadow) {
+  background-color: $background;
+  width: $width;
+  height: $height;
+  box-shadow: $boxShadow;
+}
+
+@mixin font($color,$fontSize,$fontWeight,$fontFamily) {
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: $fontFamily;
+}
+
+@mixin border($border,$borderRadius) {
+  border: $border;
+  border-radius: $borderRadius;
+}
+
+@mixin input($width,$height) {
+  width: $width;
+  height: $height;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.login {
+  margin: auto;
+  text-align: center;
+  @include global(#FFF, 380px, 420px, 0px 0px 6px 1px #b8e3f9);
+  @include font(#6d6d6d, 15px, bold, Arial);
+}
+
+.login .title {
+  @include font(#31393d, 40px, lighter, Arial);
+}
+
+.login input {
+  margin-top: 1%;
+  @include input(80%, 2.8rem);
+  @include border(1px #d0d0d0 solid, 10px);
+}
+
+.login input[type="text"], input[type="password"] {
+  font-size: 18px;
+}
+
+.login #submit {
+  @include input(60%, 2.8rem);
+  @include border(1px #d0d0d0 solid, 14px);
+  @include font(#FFF, 15px, bold, Arial);
+  background-image: linear-gradient(60deg, #f7973d, #ed4a59);
+}
+
+.login #submit a {
+  color: white;
+}
+
+.login a {
+  text-decoration: none;
+  color: #3787cf;
+}
+
