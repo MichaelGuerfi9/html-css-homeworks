@@ -1,0 +1,281 @@
+
+@font-face {
+    font-family: "EngraversGothic";
+    src: url(../font/EngraversGothic/EngraversGothicBT-Regular.woff);
+}
+
+@font-face {
+    font-family: "FoundersGrotesk";
+    src: url(../font/FoundersGrotesk/FoundersGrotesk-Regular.woff);
+}
+
+@font-face {
+    font-family: "Stanley-Poster";
+    src: url(../font/StanleyPoster/Stanley-Poster.woff);
+}
+
+.EngraversGothic {
+    font-family: "EngraversGothic";
+}
+
+.FoundersGrotesk {
+    font-family: "FoundersGrotesk";
+}
+
+.Stanley-Poster {
+    font-family: "Stanley-Poster";
+}
+
+.hrCut {
+    margin: 0 0 0 0;
+}
+
+.header {
+    margin: 0 425px 0 425px;
+}
+
+.hrVertical {
+    vertical-align: middle;
+    padding-top: 10px;
+    margin: 0 15px 2px 15px;
+    width: 1px;
+    height: 5px;
+    display: inline-block;
+    border-left: dotted #b2b2b2 1px
+}
+
+.headerTop a {
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+.headerTop {
+    width: 100%;
+    height: 44px;
+}
+
+.headerLeft {
+    padding-left: 50px;
+    float: left;
+    color: #a1a1a1;
+}
+
+.headerRight {
+    padding-right: 50px;
+    float: right;
+    height: 100%;
+}
+
+.headerContentLeft {
+    line-height: 44px;
+    display: inline-block;
+}
+
+.headerContentRight {
+    display: inline-block;
+    line-height: 44px;
+    color: #000;
+    height: 100%;
+}
+
+.headerImg {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.headerBasket {
+    margin-right: 6px;
+}
+
+.headerArrow + .hrVertical {
+    margin: 0 20px 0 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+.header .FoundersGrotesk{
+    font-weight: 600;
+}
+
+.headerMenu {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.menuCategories {
+    line-height: 60px;
+    display: inline-block;
+    height: 100%;
+    font-size: 0.8rem;
+    letter-spacing:0.1rem;
+}
+
+.menuArrow {
+    vertical-align: middle;
+    margin: 0 0 4px 4px;
+}
+
+.menuCategories a {
+    text-decoration: none;
+    color: #000;
+}
+
+main[role="main"] {
+}
+
+.article {
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.articleText {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.7rem;
+    width: 100%;
+}
+
+.articleFirst {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.articleImageOne {
+    width: 100%;
+}
+
+.articleSecond {
+    width: 30%;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+.articleImageTwo {
+    width: 100%;
+}
+
+.articleThird {
+    width: 36%;
+    margin: 20px 0 0 0;
+}
+
+.articleThird-2 {
+    margin-top: -0px;
+}
+
+.articleThirdContent {
+    width: 100%;
+    display: inline-block;
+}
+
+.articleImageThree-1, .articleImageThree-2 {
+    width: 100%;
+}
+
+.articleImageThree-1 {
+    margin-bottom: 5px;
+}
+
+.articleImageThree-2 {
+    margin-top: 5px;
+}
+
+.articleThirdText {
+    font-size: 1.3rem;
+}
+
+.articleThirdText-2 {
+    font-size: 1rem;
+}
+
+.articleThirdInput {
+    border: none;
+    padding: 9px;
+    margin: 0;
+}
+
+input[type="email"] {
+    display: inline-block;
+    width: 60%;
+    background: white;
+    border: 1px solid white;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 25%;
+    margin-left: -12px;
+    background: #a9c7bf;
+    border: 1px solid #a9c7bf;
+    color: white;
+}
+
+.articleIcon i {
+    color: #a9c7bf;
+    font-size: 0.6em;
+}
+
+.articleFourth {
+    width: 30%;
+    margin: 20px 0 0 20px;
+    float: right;
+}
+
+.articleImageFour {
+    width: 100%;
+}
+
+footer {
+    margin: 50px 0 50px 0;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footerBlock {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.footerInfo {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.footerForm {
+    margin: 10px 0 10px 0;
+}
+
+.footerForm .articleThirdInput:first-child {
+    border: 1px solid #e3e3e3;
+    padding-right: 20px;
+}
+
+.footerIcon i {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.fa {
+    margin: 0 5px 0 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
